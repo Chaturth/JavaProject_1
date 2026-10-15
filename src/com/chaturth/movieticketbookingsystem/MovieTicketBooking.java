@@ -6,7 +6,6 @@ public class MovieTicketBooking {
 
     static boolean[][] seats = new boolean[10][10];
     static Scanner sc = new Scanner(System.in);
-
     static final int BALCONY = 450;
     static final int FIRST_CLASS = 350;
     static final int SECOND_CLASS = 200;
@@ -17,7 +16,7 @@ public class MovieTicketBooking {
 
         do {
             System.out.println("\n========================================");
-            System.out.println("       MOVIE TICKET BOOKING SYSTEM");
+            System.out.println(" MOVIE TICKET BOOKING SYSTEM");
             System.out.println("========================================");
             System.out.println("1. View Seats");
             System.out.println("2. Book Tickets");
